@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int n,i,a,f=1,j;
+    scanf("%d",&n);  //no.of elements
+    for(i=1;i<=n;i++)
+    {
+scanf("%d",&a);
+{
+for(j=1;j<=a;j++)
+f=f*j;
+{
+    
+    printf("%d\n",f);
+    f=1;
+}
+}
+}
+
+    return 0;
+}
